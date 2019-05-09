@@ -1,0 +1,84 @@
+
+# Level 1
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:Welcome to the Jungle
+ball_velocities:45,550 -45,550 -30,550 30,550
+background:image(background_images/jungle.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/jungle_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:26
+START_BLOCKS
+-
+-
+-
+-
+-lllllllllllll--
+-zzzzzzzzzzzzz--
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Wide paddle with many balls
+
+START_LEVEL
+level_name: Wide Easy
+ball_velocities:-60,500 -45,500 -30,500 -15,500 15,500 30,500 45,500 60,500
+background:image(background_images/joey.jpg)
+paddle_speed:100
+paddle_width:550
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:15
+START_BLOCKS
+-
+-
+-
+-
+-
+rr----rrr
+r------r
+
+END_BLOCKS
+END_LEVEL
+
+
+
+
+# Level 3
+# Complicated pattern
+
+START_LEVEL
+level_name: Retro Arrows
+ball_velocities:45,550 46,550 47,550
+background:color(RGB(142,0,0))
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/arrows_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:135
+START_BLOCKS
+-
+-
+ggggggggggggggg
+gyyyryygoobooog
+gyyrryygoobboog
+gyrrrrrgbbbbbog
+grrrrrrgbbbbbbg
+gyrrrrrgbbbbbog
+gyyrryygoobboog
+gyyyryygoobooog
+ggggggggggggggg
+
+END_BLOCKS
+END_LEVEL
